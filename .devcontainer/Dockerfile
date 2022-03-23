@@ -1,0 +1,2 @@
+FROM node:17.7-alpine3.14
+ENV  NODE_VERSION 14.18.1

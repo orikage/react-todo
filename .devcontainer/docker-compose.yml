@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    build: .
+    tty: true
+    command: sleep infinity
+    volumes:
+      - C:\Makefiles\web\react-todo:/tmp/working
+    ports:
+      - 8888:8888
